@@ -1,0 +1,257 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/patient/patientBasicInfo",
+			"style": {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "积分",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/reuslt/success",
+			"style": {
+				//"navigationStyle": "custom",
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/reuslt/fail",
+			"style": {
+				"navigationBarTitleText": "上传失败"
+			}
+
+		}, {
+			"path": "pages/patient/patientList",
+			"style": {
+				//"navigationStyle": "custom",
+				"navigationBarTitleText": "默认",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Answer/Answer",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册账号",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/updatePassword/updatePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/creditsExchange/creditsExchange",
+			"style": {
+				"navigationBarTitleText": "客户",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/authentication/authentication",
+			"style" : 
+			{
+				"navigationBarTitleText" : "身份认证",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/messageCenter/messageCenter",
+			"style" : 
+			{
+				"navigationBarTitleText" : "消息中心",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/questionnaire/questionnaire",
+			"style" : 
+			{
+				"navigationBarTitleText" : "问卷",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/datum/datum",
+			"style" : 
+			{
+				"navigationBarTitleText" : "资料",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/crmTask/crmTask",
+			"style" : 
+			{
+				"navigationBarTitleText" : "CRM任务",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/aboutMe/aboutMe",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于我们",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/userProtocol/userProtocol",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户协议",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/privacyPolicy/privacyPolicy",
+			"style" : 
+			{
+				"navigationBarTitleText" : "隐私政策",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskList/taskList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务列表",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/ListParticulars/ListParticulars",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/IntegralList/IntegralList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "积分",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/wallet/wallet",
+			"style" : 
+			{
+				"navigationBarTitleText" : "钱包",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/withdrawalRecord/withdrawalRecord",
+			"style" : 
+			{
+				"navigationBarTitleText" : "提现记录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/IntegralListRecord/IntegralListRecord",
+			"style" : 
+			{
+				"navigationBarTitleText" : "兑换记录",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/IntegralDetail/IntegralDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "积分明细",
+				"enablePullDownRefresh" : true
+			}
+		}
+	],
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#3b9bff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/index_normal.png",
+				"selectedIconPath": "static/index_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/taskList/taskList",
+				"iconPath": "static/renwu.png",
+				"selectedIconPath": "static/renwu_show.png",
+				"text": "任务"
+			},
+			// {
+			// 	"pagePath": "pages/Answer/Answer",
+			// 	"iconPath": "static/message_default.png",
+			// 	"selectedIconPath": "static/message.png",
+			// 	"text": "消息"
+			// },
+			{
+				"pagePath": "pages/creditsExchange/creditsExchange",
+				"iconPath": "static/client_default.png",
+				"selectedIconPath": "static/client.png",
+				"text": "客户"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/wode_normal.png",
+				"selectedIconPath": "static/wode_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "调研平台",
+		"navigationBarBackgroundColor": "#3b9bff",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"bounce": "none" // 取消APP端iOS回弹,避免与下拉刷新冲突 (可统一配在 'globalStyle')
+		},
+		"mp-alipay": {
+			"allowsBounceVertical": "NO"
+		}
+	}
+}

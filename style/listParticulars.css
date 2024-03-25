@@ -1,0 +1,54 @@
+	.task {
+		margin: 15rpx;
+	}
+
+	/* 样式可以根据需要进行自定义 */
+	.task_Radio {
+		margin: 30rpx;
+	}
+
+	.dashed-line {
+		border-top: 1px dashed #ccc;
+		/* 设置虚线样式 */
+		margin: 20rpx 20rpx;
+		/* 控制虚线上下间距 */
+
+	}
+
+	.task_Radio radio {
+		margin-right: 20rpx;
+		margin-bottom: 10px;
+		/* 调整选项之间的下方间距 */
+	}
+
+	.task_Radio checkbox {
+		margin-right: 20rpx;
+		margin-bottom: 10px;
+		/* 调整选项之间的下方间距 */
+	}
+
+	.fixed-button {
+		display: flex;
+		justify-content: space-between;
+		/* 空白间距平均分配 */
+		align-items: center;
+		/* 垂直居中对齐 */
+		position: fixed;
+		bottom: 0;
+		margin-left: 2.5%;
+		height: 80rpx;
+		padding: 20rpx;
+		width: 95%;
+		/* 总宽度 */
+		z-index: 9999;
+		background-color: #fff;
+	}
+
+	.fixed-button button {
+		height: 100%;
+		font-size: 28rpx;
+		background-color: #3388ff;
+		color: #fff;
+		border: none;
+		border-radius: 15rpx;
+	}

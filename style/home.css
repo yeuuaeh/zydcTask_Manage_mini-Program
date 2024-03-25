@@ -1,0 +1,279 @@
+.content {
+		display: flex;
+		flex-direction: column;
+		background-color: aliceblue;
+	}
+
+	.header-home {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #3b9bff;
+		color: #fff;
+		width: 100%;
+		padding-top: 30rpx;
+		padding-bottom: 30rpx;
+	/* 	padding: 10px 2vm; */
+		/* 使用vw作为内边距单位 */
+	}
+
+	.left,
+	.center,
+	.right {
+		display: flex;
+		align-items: center;
+
+	}
+
+	.center {
+		background-color: #ffffff;
+		border-radius: 5px;
+		width: 70%;
+
+	}
+
+	.center input {
+		flex: 1;
+		/* 让输入框占据剩余空间 */
+		height: 30px;
+		border-radius: 5px;
+		padding: 0 10px;
+		background-color: #fff;
+		color: black;
+	}
+
+	.itemTwoRightImage {
+		width: 40rpx;
+		height: 40rpx;
+		float: right;
+	}
+
+	.search-icon {
+		position: relative;
+		margin-right: 0rpx;
+		height: 70rpx;
+
+	}
+
+	.search-icon image {
+		width: 17px;
+		height: 20px;
+		padding-left: 10rpx;
+		padding-top: 15rpx;
+	}
+
+	.search-btn {
+		color: blue;
+		padding-right: 10rpx;
+	}
+
+	.right image {
+		width: 30px;
+		height: 30px;
+		margin-right: 10rpx;
+	}
+
+	.moneySum-left-text {
+		margin-top: 10rpx;
+		font-size: 28rpx;
+		color: #8e8e8e;
+		font-weight: bold;
+	}
+
+	.moneySum-right-text {
+		margin-top: 10rpx;
+		font-size: 28rpx;
+		color: #8e8e8e;
+		font-weight: bold;
+	}
+
+	.moneySum {
+		background-color: #ffffff;
+		width: 95%;
+		margin-left: 2.5%;
+		margin-top: 2.5%;
+		display: flex;
+		border-radius: 10rpx;
+		justify-content: space-between;
+		height: 180rpx;
+	}
+
+	.moneySum-left {
+		width: 50%;
+		background-color: #fff8dc;
+		text-align: center;
+		padding-top: 3%;
+		margin: 2.5%;
+	}
+
+	.moneySum-right {
+		width: 50%;
+		background-color: #d2e9ff;
+		text-align: center;
+		padding-top: 3%;
+		margin: 2.5%;
+	}
+
+	.header-home-function {
+		display: flex;
+		justify-content: space-around;
+		/* 均匀分布 */
+		align-items: center;
+		background-color: #3b9bff;
+		/* 蓝色背景 */
+		color: #fff;
+		padding: 15px 0;
+		/* 设置内边距 */
+		height: 100%;
+	}
+
+	.function-item {
+		display: flex;
+		flex-direction: column;
+		/* 垂直排列 */
+		align-items: center;
+	}
+
+	.icon {
+		width: 30px;
+		/* 图标大小 */
+		height: 30px;
+	}
+
+	.text {
+		margin-top: 3px;
+		/* 文字与图标间距 */
+	}
+
+	.dataBoard {
+		margin-left: 50rpx;
+		margin-top: 20rpx;
+		padding-bottom: 20rpx;
+
+	}
+
+	.dataBoardImage {
+
+		width: 30rpx;
+		height: 30rpx;
+	}
+
+	.dataBoardText {
+		margin-left: 10rpx;
+		font-size: 32rpx;
+		color: #000;
+		font-weight: bold;
+	}
+
+	.dataBoardDate {
+		margin-left: 30rpx;
+		font-size: 25rpx;
+		color: #8e8e8e;
+	}
+
+	.dataBoardList {
+		display: flex;
+		background-color: #fff;
+		width: 94%;
+		margin: 3%;
+		height: 230px;
+		margin-top: 8rpx;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.dataBoardList_left {
+		position: relative;
+		/* 设置相对定位 */
+		width: 48%;
+		height: 100%;
+		margin: 3%;
+		font-size: 28rpx;
+		background-color: #f0f0f0;
+	}
+
+	.helper-text {
+		position: absolute;
+		/* 设置绝对定位 */
+		top: 6%;
+		/* 调整垂直位置到图片中间 */
+		left: 10%;
+		/* 调整水平位置到图片中间 */
+		font-weight: bold;
+		font-size: 16px;
+		color: #fff;
+	}
+
+	.helper-xs_MissionGuide {
+		position: absolute;
+		/* 设置绝对定位 */
+		top: 20%;
+		/* 调整垂直位置到图片中间 */
+		left: 50%;
+		/* 调整水平位置到图片中间 */
+		font-weight: bold;
+		font-size: 10px;
+		background-color: burlywood;
+		padding: 5rpx;
+		color: #fff;
+	}
+
+	.dataListTwoValue {
+		margin-left: 12rpx;
+
+
+	}
+
+	.dataBoardList_left image {
+		width: 100%;
+		height: 100%;
+	}
+
+	.dataBoardList_right {
+		position: relative;
+		/* 设置相对定位 */
+		width: 48%;
+		height: 100%;
+		margin: 3%;
+		font-size: 28rpx;
+		background-color: #f0f0f0;
+	}
+
+	.list-container {
+		position: absolute;
+		/* 设置绝对定位 */
+		top: 39%;
+		width: 90%;
+		height: 55%;
+		margin-left: 5%;
+		/* 调整垂直位置到图片中间 */
+		background-color: #fff;
+
+	}
+
+	.list-item {
+		height: 30px;
+
+		line-height: 30px;
+		text-align: center;
+		background-color: #eee;
+		margin: 8px;
+	}
+
+	.list-container-right {
+		position: absolute;
+		/* 设置绝对定位 */
+
+		/* 调整垂直位置到图片中间 */
+		background-color: #fff;
+		height: 100%;
+	}
+
+	.list-item-right {
+		height: 22px;
+		line-height: 22px;
+		text-align: left;
+		background-color: #fff;
+		margin: 10px;
+	}

@@ -1,0 +1,125 @@
+.login-page {
+		height: 100%;
+	
+		.header {
+			padding: 0rpx 0 0 50rpx;
+			height: 441rpx;
+			background-image: url(../../static/login_bg.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			color: #FFFFFF;
+			font-size: 60rpx;
+		}
+	
+		.header_text {
+			padding-top: 150rpx;
+		}
+	
+		.input-wrapper {
+	
+	
+			.title {
+				font-size: 40rpx;
+				color: #333333;
+				font-weight: bold;
+				margin-left: 50rpx;
+			}
+	
+			.input-block {
+				padding: 50rpx;
+	
+	
+				.fromListItem-wrap {
+					/deep/ .aft-icon {
+						width: 34rpx;
+						height: 34rpx;
+					}
+				}
+			}
+		}
+	
+		.middle-register-btn,
+		.middle-restpwd-btn {
+			font-size: 30rpx;
+			font-weight: bold;
+			text-align: center;
+			width: 41%;
+			color: #111999;
+			display: inline-block;
+		}
+	
+		.middle-register-btn {
+			margin-left: 7%;
+			float: left;
+			/* 让注册按钮靠左显示 */
+			text-align: left;
+			/* 注册按钮文字左对齐 */
+		}
+	
+		.middle-restpwd-btn {
+			margin-right: 7%;
+			float: right;
+			/* 让忘记密码按钮靠右显示 */
+			text-align: right;
+			/* 忘记密码按钮文字右对齐 */
+		}
+	
+		.btn-wrapper {
+			//position: absolute;
+			//bottom: 20rpx;
+			margin-top: 200rpx;
+			width: 100%;
+	
+			.btn-login {
+				margin: 0 50rpx;
+			}
+		}
+	
+		.bottom-text-wrapper {
+			position: absolute;
+			margin-top: 100rpx;
+			width: 100%;
+			font-size: 28rpx;
+			display: flex;
+			justify-content: center;
+		}
+	
+		// .wechat-login-btn{
+		// 	margin-left: 30rpx;
+		// 	font-weight: bold;
+		// 	margin-top: -50rpx;
+		// }
+		.wechat-login-btn-img {
+			width: 100rpx;
+			height: 100rpx;
+			margin-left: 45%;
+			margin-top: 45rpx;
+			margin-bottom: 30rpx;
+	
+		}
+	
+		.text-agree {
+			white-space: nowrap;
+			/* 让文本不换行 */
+			color: black;
+			/* 设置文本颜色为黑色 */
+		}
+	
+		.text-policy a {
+			color: blue;
+			/* 设置链接文字颜色为蓝色 */
+		}
+		
+		.version{
+			width:100%;
+			bottom: 0;
+			margin-bottom: 20rpx;
+			position: absolute;
+			text-align: center;
+			color: #696969;
+			font-size: 28rpx;
+			font-weight: bold;
+			
+		}
+	
+	}

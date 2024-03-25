@@ -1,0 +1,50 @@
+.tab-container {
+		display: flex;
+		overflow-x: hidden; /* 隐藏水平方向的滚动条 */
+	}
+
+	.tab-item {
+		flex: 1;
+		text-align: center;
+		padding: 10px 0;
+		border-bottom: 2px solid transparent;
+		color: #666;
+	}
+
+	.tab-item.active {
+		border-bottom-color: #007aff;
+		color: #007aff;
+	}
+
+	.tab-content {
+		/* padding: 20px; */
+		text-align: center;
+		overflow-x: hidden; /* 隐藏水平方向的滚动条 */
+	}
+
+	.list-item {
+		/* margin-bottom: 10px; */
+		/* background-color: aliceblue; */
+		/* border-radius: 20rpx; */
+		/* padding: 20rpx; */
+		width: 90%;
+		margin: 2.5%;
+	}
+
+	.item-info {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10rpx;
+	}
+
+	.status {
+		background-color: #6eb04b;
+		color: white;
+		border-radius: 10%;
+		padding: 5rpx 10rpx;
+	}
+
+	.date {
+		font-size: 28rpx;
+	}
